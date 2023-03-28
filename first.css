@@ -1,0 +1,45 @@
+.header {
+    padding: 20px;
+    text-align: left;
+    background: #c5d1dd;
+    color: white;
+    font-size: 20px;
+  }
+button{
+    float: right;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+.register{
+    margin-right: 50px;
+}
+.title{
+    color: #000;
+    padding-left: 400px;
+}
+body{
+    background-color: #c5d1dd;
+}
+a{
+    text-decoration: none;
+    border: solid;
+    padding: 10px;
+    color: white;
+    background-color: rgb(64, 224, 120);
+    border-radius: 10%;
+    margin-left: 500px;
+}
+.qwe{
+    display: flex;
+    justify-content: space-around;
+}
+.asd{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 8px;
+}
+.image{
+    padding-top: 150px;
+    padding-left: 100px;
+}
