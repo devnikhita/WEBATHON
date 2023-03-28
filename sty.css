@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .calendar-container {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  thead th {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tbody td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tbody td:hover {
+    background-color: #eee;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+  }
+  
+  td:not(:empty) {
+    background-color: #f1

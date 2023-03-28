@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Period Tracker & Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f0f6fc;
+    color: #000;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="date"], form input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius:
+  }
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Period Tracker & Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#period-tracker">Period Tracker</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="period-tracker">
+        <h2>Period Tracker</h2>
+        <p>Use the form below to track your menstrual cycle:</p>
+        <form>
+          <label for="last-period-date">Last period date:</label>
+          <input type="date" id="last-period-date" name="last-period-date"><be>
+          
+          <label for="cycle-length">Cycle length (in days):</label>
+          <input type="number" id="cycle-length" name="cycle-length"><br>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      
+      <section id="blog">
+        <h2>Blog</h2>
+        <article>
+          <header>
+            <h3>How to Relieve Menstrual Cramps</h3>
+            <p>Posted on March 1, 2023</p>
+          </header>
+          <p>If you experience painful menstrual cramps, try these remedies...</p>
+        </article>
+        
+        <article>
+          <header>
+            <h3>Why Tracking Your Period is Important</h3>
+            <p>Posted on February 15, 2023</p>
+          </header>
+          <p>Learn about the benefits of tracking your menstrual cycle...</p>
+        </article>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Period Tracker & Blog</p>
+    </footer>
+  </body>
+</html>
+

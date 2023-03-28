@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Upload Prescription</title>
+  <link rel="stylesheet" href="pres.css">
+  <style>
+    a{
+    text-decoration: none;
+      border: solid;
+      padding: 10px;
+      background-color: #097b87;
+      color: white;
+      border-radius: 10%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Upload Prescription</h1>
+  
+  <form action="#" method="POST" enctype="multipart/form-data">
+    <label for="patient-name">Patient Name:</label>
+    <input type="text" id="patient-name" name="patient-name" required><br>
+    <label for="prescription-file">Prescription File:</label><br>
+    <input type="file" id="prescription-file" name="prescription-file" accept=".pdf,.doc,.docx" required><br>
+    
+    <a href="./final.html">Upload</a>
+  </form>
+</body>
+</html>

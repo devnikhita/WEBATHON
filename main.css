@@ -1,0 +1,24 @@
+.header {
+    padding: 50px;
+    text-align: left;
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+  }
+button{
+
+    float:right;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+.register{
+    margin-right: 50px;
+}
+body{
+    background-color: #f0f6fc;
+}
+
+.title{
+    padding-left: 25px;
+}

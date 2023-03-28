@@ -1,0 +1,78 @@
+h2{
+    font-size:35px;
+    padding:20px;
+    text-align:center;
+    color:matte black;
+    font-family:garamond;
+  }
+  body{
+   
+    background-repeat:no-repeat;
+    background-position:left;
+    background-color: #f0f9fc;
+    
+  }
+  form{
+    position:relative; 
+    left:70px;
+    width:500px;
+    margin:auto;
+    font-size:medium;
+    color:matte black;
+    font-family:garamond;
+  }
+  input[type = text],
+  input[type = email],
+  input[type = tel],
+  input[type = text],
+  input[type = password],
+  input[type = password],
+  input[type = submit],
+  select,
+    textarea
+    {
+      width: 100%;
+      font-size: 25px;
+      
+    }
+  button
+  {
+    font-size:25px;
+    color:matte black;
+    text-align:center;
+    float:center;
+    width:100px;
+    height:40px;
+    font-family:garamond;
+    background-color:#CCDCFD;
+    display:block;
+    margin:auto;
+    padding-bottom:5px;
+    border:none;
+  }
+  input{
+    font-size:50px;
+    font-family:garamond;
+    color:matte black;
+  }
+  input[type = checkbox]
+  {
+    font-family:garamond;
+    padding-bottom:10px;
+    color:matte black;
+  }
+  img{
+    margin-left: 100px;
+  }
+  div{
+    margin-top:20px;
+  }
+  .qwe{
+    border: solid;
+  background-color: aliceblue;
+  border-color: #141414;
+  color: coral;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 200px;
+  }

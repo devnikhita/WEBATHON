@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Medicine Ordering Form</title>
+	<style>
+		/* CSS styling */
+		form {
+			max-width: 500px;
+			margin: auto;
+			font-family: Arial, sans-serif;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		input[type="text"], select {
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px 1px #ccc;
+			width: 100%;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+        body{
+            background-color: #f0fcf6;
+        }
+		.qwert{
+			text-decoration: none;
+      border: solid;
+      padding: 10px;
+      background-color: #097b87;
+      color: white;
+      border-radius: 10%;
+		}
+	</style>
+</head>
+<body>
+    <center><h1>CureNet Medicines</h1></center>
+	<form action="submit_order.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone" required>
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address" required>
+
+		<label for="medicine">Select Medicine:</label>
+		<select id="medicine" name="medicine" required>
+			<option value="">-- Select Medicine --</option>
+			<option value="Paracetamol">Paracetamol(For Fever)</option>
+			<option value="Ibuprofen">Ibuprofen(For Bodyaches) </option>
+			<option value="Aspirin">Aspirin(For bodyaches)</option>
+			<option value="Ciprofloxacin">Ciprofloxacin(For bodypains)</option>
+			<option value="Amoxicillin">Amoxicillin(For Infections)</option>
+            <option value="Azythromycin">Azythromicin(For Throat pain)</option>
+            <option value="Dart">Dart(For headache)</option>
+            <option value="Gabapin">Gabapin(For neckpain)</option>
+            <option value="meftalspas">MeftalSpas(For Headache)</option>
+		</select>
+
+		
+		<a href="./order.html" class="qwert">Order</a>
+	</form>
+</body>
+</html>
